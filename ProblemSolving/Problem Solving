@@ -29,6 +29,23 @@ A man is currently stuck on the opposite side of the riverbank with some items a
 
             Socks in the Dark
 
-  1. It is currently dark, and it is necessary to withdraw socks from a drawer. If all of the socks were taken out then it would ensure a matching pair is chosen. The goal is to select the smallest number of socks for each scenario.
+  1. Define
+  It is currently dark, and it is necessary to withdraw socks from a drawer. If all of the socks were taken out then it would ensure a matching pair is chosen. The goal is to select the smallest number of socks for each scenario.
+
+  2. Break Apart
+  The primary issue is the fact that the lights are off therefore the color of socks can not be seen since it is dark. The goal is to not pull out all of the socks but still make sure you have enough socks to create a pair.
+
+  3.Solution
+  -Pull out all but 2 socks for both a and b to ensure a matching pair
+  -Create an equation for both a and b to ensure the least amount of sock are chosen.
+
+  4.Evaluate
+The first solution does not meet the requirements so it will not work. The second solution does meet the requirements and will work if executed properly.
+
+  5. Solution Plan
+  a. since there are only 2 pair of white socks if you pull out at least 4 pairs of socks then you can ensure that at least 2 of the pairs fo sock match.
+  b. Since there are a total of 20 pairs of socks and there are 3 different colors to choose from and the goal is to have a matching pair the lowest possible amount of socks selected is 18.
+  
+
 
 
