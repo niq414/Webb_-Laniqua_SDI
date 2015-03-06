@@ -16,7 +16,7 @@ var thanks = "Thank you, have a great day!";//ending string
 
 console.log(myGreeting);// welcome output
 console.log("Thank you for viewing " +topic+ "!" ); //output for letting the user know what they are looking at
-console.log("I am showing off a my " + skillsLearned + ".");//output for letting the user know what I am doing
+console.log("I am showing off my " + skillsLearned + ".");//output for letting the user know what I am doing
 console.log("In addition you will get to " +method+ " a little more " +whoMe+ "!");//output for additional topics provided
 console.log("I have a total of " +myChildren+ " young boys.");//outputting my information
 console.log("It is " +run+ " I love to run!" );//boolean output
