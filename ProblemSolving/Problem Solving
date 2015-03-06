@@ -47,11 +47,38 @@ The first solution does not meet the requirements so it will not work. The secon
   b. Since there are a total of 20 pairs of socks and there are 3 different colors to choose from and the goal is to have a matching pair the lowest possible amount of socks selected is 18.
 
 
-  Predicting Fingers
+                             Predicting Fingers
   1. Define
   There is a girl that is counting on her fingers in a very unusual way and it is necessary to determine which fingers she will land on.
 
-  2. 
+  2. Break Apart
+  The direction in which the girl is counting is prevent an accurate estimate of which finger she will land on. The goal is to predict which finger she will land on for:
+  1-10
+  1-100
+  1-1000
+
+  3. Solution
+  Changing the way the girl is counting on one hand or pose a second hand be used to calculate the predication.
+   Create a formula that will predict which finger the little girl will land on in the future.
+
+   4. Evaluate
+   Considering that adding a second hand is not allowed, this solution will not work and is not part of the rules.
+   Creating a formula will meet the goals and this solution will work for all scenarios
+
+   5.Solution
+   1-10: move 10 spaces using 5 fingers 10 = Thumb
+   1-100: move 10 spaces using 5 fingers by tens 100 = ring finger
+   1-1000: move 100 spaces using 5 fingers by hundreds 1000 = middle finger
+
+   Each move should start where the last move left off.
+
+
+
+
+
+
+
+
 
 
 
