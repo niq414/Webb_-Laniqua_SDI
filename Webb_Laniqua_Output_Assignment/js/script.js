@@ -7,7 +7,13 @@ var myGreeting = "Greeting's!"; //This is how the user will be welcomed.
 var thankYou = "my Code"; //Thank you for reading my code
 var myChildren = "2"; //This represents the amount of children I have
 var pets = "false"; // This boolean is false because I do not have any pets
+var skillsLearned = "coding skills";
 
 
 
 console.log(myGreeting);
+console.log("Thank you for viewing " +thankYou+ "!" );
+console.log("I am not only showing off a my " + skillsLearned + ".");
+
+
+
