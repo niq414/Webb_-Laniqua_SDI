@@ -2,4 +2,12 @@
 //March 5, 2015
 //Problem Solving Assignment
 
-1. A Cat, a Parrot and a Bag of Seed.
+                    A Cat, a Parrot and a Bag of Seed.
+
+1.Define
+A man is currently stuck on the opposite side of the riverbank with some items and is facing a dilemma in getting both himself and the items safely to the other side of the riverbank. It is not clear if it is possible for the man to walk to the other side instead of riding the boat.
+
+ 2.Break Apart
+ The man can only carry one other item with him at a time but the cat and parrot cannot be left alone neither can the parrot and seed. The other goal is to ensure that all of the items remain safe if he has to take 1 at a time.
+
+ 
