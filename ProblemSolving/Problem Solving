@@ -45,7 +45,13 @@ The first solution does not meet the requirements so it will not work. The secon
   5. Solution Plan
   a. since there are only 2 pair of white socks if you pull out at least 4 pairs of socks then you can ensure that at least 2 of the pairs fo sock match.
   b. Since there are a total of 20 pairs of socks and there are 3 different colors to choose from and the goal is to have a matching pair the lowest possible amount of socks selected is 18.
-  
+
+
+  Predicting Fingers
+  1. Define
+  There is a girl that is counting on her fingers in a very unusual way and it is necessary to determine which fingers she will land on.
+
+  2. 
 
 
 
