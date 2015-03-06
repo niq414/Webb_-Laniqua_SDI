@@ -10,3 +10,4 @@ var pets = "false"; // This boolean is false because I do not have any pets
 
 
 
+console.log(myGreeting);
