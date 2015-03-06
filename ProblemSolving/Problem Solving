@@ -10,4 +10,25 @@ A man is currently stuck on the opposite side of the riverbank with some items a
  2.Break Apart
  The man can only carry one other item with him at a time but the cat and parrot cannot be left alone neither can the parrot and seed. The other goal is to ensure that all of the items remain safe if he has to take 1 at a time.
 
- 
+ 3.Solutions
+
+1. The easiest and less complex solution is to have the man walk with all of his items to the other side of the riverbank.
+
+ A= current location
+ B = Mid Point
+ C = Destination
+
+ 2.All Items are currently at point A. Man gets in boat and takes parrot to point B goes back to get cat and takes him to point C then goes back to get seed and takes it to point C then goes to point B to get Parrot and takes him to point C.
+
+ 4. Evaluation
+
+ Each possible solution meets the overall goals of getting to the other side of the riverbank safely.
+
+ 5. Solution Plan
+ We will go with solution 2. This is the best way to get the man and his items to the other side. He will first feed both animals and ensure they are alert and then he will execute the above actions to get each item to the other side safely.
+
+            Socks in the Dark
+
+  1. It is currently dark, and it is necessary to withdraw socks from a drawer. If all of the socks were taken out then it would ensure a matching pair is chosen. The goal is to select the smallest number of socks for each scenario.
+
+
