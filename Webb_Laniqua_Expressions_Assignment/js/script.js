@@ -2,32 +2,42 @@
 
 //We will be calculating the amount of hot beverages that a group of office workers consume each week
 
+// variables for the coffee and condiments that will be calculated
+var hotBeverages = ["Decaf", "Hazelnut", "Bold" ]; //The different types of coffee that office workers can choose from.
+var sugarBox= 20; //Each small box of sugar contains 20 cartons of sugar
+var creamerBox = 10; //Each box of creamer contains 10 jars of creamer
 
-var hotBeverages = ["Decaf", "Hazelnut", "Bold" ];
-var sugarBox= 20;
-var creamerBox = 10;
+//Prompts for the array of k cups that will be calculated
+hotBeverages[0] = prompt("How many Decaf K cups were used?");//ask the user for the amount of decaf coffee cups
+hotBeverages[1] = prompt("How many Hazelnut K cups were used?");//ask the user for hazelnut coffee cups
+hotBeverages[2] = prompt("How many Bold K cups were used?");//ask the user for bold coffee cups
 
-
-hotBeverages[0] = prompt("How many Decaf K cups were used?");
-hotBeverages[1] = prompt("How many Hazelnut K cups were used?");
-hotBeverages[2] = prompt("How many Bold K cups were used?");
-
-
-var totalBeverages = parseInt(hotBeverages[0]) + parseInt(hotBeverages[1]) + parseInt(hotBeverages[2]);
+//the total amount of beverages equals each type of k cup in the array added together
+var totalBeverages = parseInt(hotBeverages[0]) + parseInt(hotBeverages[1]) + parseInt(hotBeverages[2]);//parseInt lets the code know to add the variables together
 console.log(totalBeverages);
-alert("The total amount of coffee consumed for the week is " +totalBeverages+ " K cups!");
+alert("The total amount of coffee consumed for the week is " +totalBeverages+ " K cups!");//tell the user the total amount of k cups
 
-sugarBox = prompt("How many boxes of sugar was used?");
-creamerBox = prompt("How many boxes of creamer was used?");
+//condiment variables
+sugarBox = prompt("How many boxes of sugar was used?");//ask the user how many boxes of sugar was used
+creamerBox = prompt("How many boxes of creamer was used?");//ask the user for the amount of creamer used
 
-condiments = sugarBox * 20 + creamerBox * 10;
+condiments = sugarBox * 20 + creamerBox * 10;//the condiments equals the sugar multiplied by 20 added to the creamer multiplied by 10
 console.log(condiments);
-alert("There were a total of " +condiments+ " condiments used for the week");
+alert("There were a total of " +condiments+ " condiments used for the week");//tell the user the amount of condiments used for the week
 
-var x =1;
+var x =1;//created assignment operator for the stirs that were sent to recycling
 
-var x = prompt("How many straws were used?")
-x++;
+var x = prompt("How many stirs were used?")//ask the user how many stirs were used
+x++;//the amount of stirs sent to recycling is added by 1 because at the beginning of the week the first stir is removed for sanitation purposes
 console.log(x);
-alert("There are " +x+ " straws that will be sent to the recycling bins.");
+alert("There are " +x+ " stirs that will be sent to the recycling bins.");//tell the user the amount of stirs that were sent to recycling.
+
+var a = 2;//assignment operator for the amount of honey drops used
+var a = prompt("How many honey drops were used?");//ask the user how many honey drops were used
+x+=2;
+console.log(a);
+alert("There were " +a+ " honey drops used!");
+
+
+
 
