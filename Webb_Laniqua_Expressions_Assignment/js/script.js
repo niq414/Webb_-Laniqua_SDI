@@ -12,8 +12,6 @@ hotBeverages[1] = prompt("How many Hazelnut K cups were used?");
 hotBeverages[2] = prompt("How many Bold K cups were used?");
 
 
-
-
 var totalBeverages = parseInt(hotBeverages[0]) + parseInt(hotBeverages[1]) + parseInt(hotBeverages[2]);
 console.log(totalBeverages);
 alert("The total amount of coffee consumed for the week is " +totalBeverages+ " K cups!");
@@ -23,4 +21,4 @@ creamerBox = prompt("How many boxes of creamer was used?");
 
 condiments = sugarBox * 20 + creamerBox * 10;
 console.log(condiments);
-alert("There were a total of " +condiments+ " used for the week");
+alert("There were a total of " +condiments+ " condiments used for the week");
