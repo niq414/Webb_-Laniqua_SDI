@@ -23,20 +23,25 @@ creamerBox = prompt("How many boxes of creamer was used?");//ask the user for th
 
 condiments = sugarBox * 20 + creamerBox * 10;//the condiments equals the sugar multiplied by 20 added to the creamer multiplied by 10
 console.log(condiments);
-alert("There were a total of " +condiments+ " condiments used for the week");//tell the user the amount of condiments used for the week
+alert("There were a total of " +condiments+ " condiments used for the week!");//tell the user the amount of condiments used for the week
 
 var x =1;//created assignment operator for the stirs that were sent to recycling
 
 var x = prompt("How many stirs were used?")//ask the user how many stirs were used
 x++;//the amount of stirs sent to recycling is added by 1 because at the beginning of the week the first stir is removed for sanitation purposes
 console.log(x);
-alert("There are " +x+ " stirs that will be sent to the recycling bins.");//tell the user the amount of stirs that were sent to recycling.
+alert("There are " +x+ " stirs that will be sent to the recycling bins this week!");//tell the user the amount of stirs that were sent to recycling.
 
 var a = 5;//assignment operator for the amount of honey drops used
 var a = prompt("How many honey drops were used?");//ask the user how many honey drops were used
 a--;//the first honey drop is removed at the start of the week for sanitation purposes
 console.log(a);
-alert("There were " +a+ " honey drops used!");//tell the user how many honey drops were used including the one that was removed at the start of the week
+alert("There were " +a+ " honey drops used for the week!");//tell the user how many honey drops were used including the one that was removed at the start of the week
+
+//I typed 3 for decaf, 4 for hazelnut and 5 for bold and the calculator gave me 12.
+//I typed 5 for boxes of sugar and 2 for boxes of creamer and the calculator gave me 120
+//I typed 50 for X and the calculator gave me 51
+//I typed 10 for a and the calculator gave me 9
 
 
 
