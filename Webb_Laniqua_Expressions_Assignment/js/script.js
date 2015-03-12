@@ -32,11 +32,11 @@ x++;//the amount of stirs sent to recycling is added by 1 because at the beginni
 console.log(x);
 alert("There are " +x+ " stirs that will be sent to the recycling bins.");//tell the user the amount of stirs that were sent to recycling.
 
-var a = 2;//assignment operator for the amount of honey drops used
+var a = 5;//assignment operator for the amount of honey drops used
 var a = prompt("How many honey drops were used?");//ask the user how many honey drops were used
-x+=2;
+a--;//the first honey drop is removed at the start of the week for sanitation purposes
 console.log(a);
-alert("There were " +a+ " honey drops used!");
+alert("There were " +a+ " honey drops used!");//tell the user how many honey drops were used including the one that was removed at the start of the week
 
 
 
