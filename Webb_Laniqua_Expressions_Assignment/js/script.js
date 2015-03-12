@@ -2,6 +2,7 @@
 
 //We will be calculating the amount of hot beverages that a group of office workers consume each week
 
+
 var hotBeverages = ["Decaf", "Hazelnut", "Bold" ];
 var sugarBox= 20;
 var creamerBox = 10;
@@ -22,3 +23,11 @@ creamerBox = prompt("How many boxes of creamer was used?");
 condiments = sugarBox * 20 + creamerBox * 10;
 console.log(condiments);
 alert("There were a total of " +condiments+ " condiments used for the week");
+
+var x =1;
+
+var x = prompt("How many straws were used?")
+x++;
+console.log(x);
+alert("There are " +x+ " straws that will be sent to the recycling bins.");
+
