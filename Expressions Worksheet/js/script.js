@@ -33,3 +33,24 @@ console.log(leftOver);
 alert("Sparky will have " +leftOver+ " slices of pizza.");
 
 
+//Average Shopping bill
+
+var groceryBill = ["week1", "week2", "week3", "week4", "week5"];
+
+groceryBill[0] = prompt("How much was spent for week 1?");
+groceryBill[1] = prompt("How much was spent for week 2?");
+groceryBill[2] = prompt("How much was spent for week 3?");
+groceryBill[3] = prompt("How much was spent for week 4?");
+groceryBill[4] = prompt("How much was spent for week 5?");
+
+var totalBill = groceryBill[0] +groceryBill[1] + groceryBill[2] + groceryBill[3] + groceryBill[4];
+
+console.log(totalBill);
+alert("The total spent on groceries was $" +totalBill+ ".");
+
+var average = totalBill / 5;
+console.log(average);
+alert("The average grocery bill was $" +average+ "." );
+
+
+
