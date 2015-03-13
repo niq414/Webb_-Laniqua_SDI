@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae5beb44-19e4-4b63-b93b-ae33a856576f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Webb_Laniqua_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Webb_Laniqua_Expressions_Assignment/js/script.js" />
-    </list>
+    <list default="true" id="ae5beb44-19e4-4b63-b93b-ae33a856576f" name="Default" comment="" />
     <ignored path="Webb_-Laniqua_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Webb_Laniqua_Expressions_Assignment/js/script.js">
+        <entry file="file://$PROJECT_DIR$/Expressions Worksheet/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68661416" vertical-offset="494" max-vertical-offset="1170">
-              <caret line="44" column="338" selection-start-line="44" selection-start-column="338" selection-end-line="44" selection-end-column="338" />
+            <state vertical-scroll-proportion="0.32407406" vertical-offset="0" max-vertical-offset="648">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,6 +48,7 @@
         <option value="$PROJECT_DIR$/ProblemSolving/Problem Solving" />
         <option value="$PROJECT_DIR$/Prompt and alert/js/script.js" />
         <option value="$PROJECT_DIR$/Webb_Laniqua_Expressions_Assignment/js/script.js" />
+        <option value="$PROJECT_DIR$/Expressions Worksheet/js/script.js" />
       </list>
     </option>
   </component>
@@ -57,8 +56,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="363" />
-    <option name="y" value="24" />
+    <option name="x" value="536" />
+    <option name="y" value="107" />
     <option name="width" value="963" />
     <option name="height" value="745" />
   </component>
@@ -113,7 +112,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Webb_Laniqua_Expressions_Assignment" />
+              <option name="myItemId" value="Expressions Worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -127,7 +126,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Webb_Laniqua_Expressions_Assignment" />
+              <option name="myItemId" value="Expressions Worksheet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -205,7 +204,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="363" y="24" width="963" height="745" extended-state="0" />
+    <frame x="536" y="107" width="963" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -303,8 +302,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Webb_Laniqua_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68661416" vertical-offset="494" max-vertical-offset="1170">
+        <state vertical-scroll-proportion="1.464567" vertical-offset="0" max-vertical-offset="1170">
           <caret line="44" column="338" selection-start-line="44" selection-start-column="338" selection-end-line="44" selection-end-column="338" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expressions Worksheet/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32407406" vertical-offset="0" max-vertical-offset="648">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
