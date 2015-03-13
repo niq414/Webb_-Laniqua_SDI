@@ -52,5 +52,25 @@ var average = totalBill / 5;
 console.log(average);
 alert("The average grocery bill was $" +average+ "." );
 
+//Discounts
+
+
+var originalPrice = 1;
+var discountPercent = .10;
+var salesTax = .10;
+
+item = prompt("What type of item are you buying?");
+originalPrice = prompt("What is the original price for the item?");
+discountPercent = prompt("What is the discount percent?");
+salesTax = prompt("What is the sales tax?");
+
+
+withTax = originalPrice - discountPercent + salesTax
+noTax = originalPrice + salesTax
+
+console.log(withTax)
+alert("Your " +item+ " was originally " +originalPrice+ ", but after a discount of " +discountPercent+ "% it is now $" +withTax+ " with tax and $" +noTax+ " without tax.");
+    
+
 
 
