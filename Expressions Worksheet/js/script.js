@@ -43,7 +43,7 @@ groceryBill[2] = prompt("How much was spent for week 3?");
 groceryBill[3] = prompt("How much was spent for week 4?");
 groceryBill[4] = prompt("How much was spent for week 5?");
 
-var totalBill = groceryBill[0] +groceryBill[1] + groceryBill[2] + groceryBill[3] + groceryBill[4];
+var totalBill = parseInt(groceryBill[0]) +parseInt(groceryBill[1]) + parseInt(groceryBill[2]) + parseInt(groceryBill[3]) + parseInt(groceryBill[4]);
 
 console.log(totalBill);
 alert("The total spent on groceries was $" +totalBill+ ".");
@@ -69,8 +69,8 @@ withTax = originalPrice - discountPercent + salesTax
 noTax = originalPrice + salesTax
 
 console.log(withTax)
-alert("Your " +item+ " was originally " +originalPrice+ ", but after a discount of " +discountPercent+ "% it is now $" +withTax+ " with tax and $" +noTax+ " without tax.");
-    
+alert("Your " +item+ " were originally $" +originalPrice+ ", but after a discount of " +discountPercent+ "% it is now $" +withTax+ " with tax and $" +noTax+ " without tax.");
+
 
 
 
