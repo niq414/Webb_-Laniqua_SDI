@@ -42,7 +42,7 @@ a--;//the first honey drop is removed at the start of the week for sanitation pu
 console.log(a);
 alert("There were " +a+ " honey drops used for the week!");//tell the user how many honey drops were used including the one that was removed at the start of the week
 
-alert("For the week of " +monthOf+ " " +dateOf+ ", " +yearOf+ " the total amount of K cups used was " +totalBeverages+ ". There were " +condiments+ " condiments used. A total of " +a+ " honey drops were used and " +x+ " stirs were sent to recycling!");
+alert("For the week of " +monthOf+ " " +dateOf+ ", " +yearOf+ " the total amount of K cups used was " +totalBeverages+ ". There were " +condiments+ " condiments used. A total of " +a+ " honey drops were used and " +x+ " stirs were sent to recycling!");//the summary alert give the user information about all of the data that was collected
 
 //I typed 3 for decaf, 4 for hazelnut and 5 for bold and the calculator gave me 12.
 //I typed 5 for boxes of sugar and 2 for boxes of creamer and the calculator gave me 120
