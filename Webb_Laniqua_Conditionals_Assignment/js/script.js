@@ -30,5 +30,7 @@ if (totalpoints > 1 && totalpoints < 10 && red == 0){
     alert("You received " +totalpoints+ " points. You have earned a pizza party!");
 }else if (red > 1) {
     console.log(totalpoints);
-    alert("You have received " + totalpoints + " points and you had " + red + " red day's. Let's work on our behavior!");
+    alert("You have received " + totalpoints + " points and you had " + red + " red day's. You will not get a prize.");
 }
+
+(red >= 1) ? console.log("Good Job!") : console.log("Let's work on our behavior.");
