@@ -35,6 +35,9 @@ if (red === "" || isNaN(red)){
 totalpoints = purple * 5 + green * 4 + orange * 3 + parseInt(yellow);//the total for each color are added to get the total points
 console.log(totalpoints);
 
+//ternary
+(red >= 1) ? console.log("Let's work on our behavior.") : console.log("Good Job!");//if they have a red day then they need to work on their behavior
+
 //conditional statements based on calculations to determine what the student will get
 if (totalpoints > 1 && totalpoints < 10 && red == 0){
     console.log(totalpoints);//if there are at least 1 point but less than 10 and the student didn't have red days then they may have a sticker
@@ -50,7 +53,6 @@ if (totalpoints > 1 && totalpoints < 10 && red == 0){
     alert("You have received " + totalpoints + " points and you had " + red + " red day's. You will not get a prize.");//if they have a red day there is no prize
 }
 
-//ternary
-(red >= 1) ? console.log("Good Job!") : console.log("Let's work on our behavior.");//if they have a red day then they need to work on their behavior
+
 
 //I entered 2 for purple 1 for green 1 for orange 1 for yellow and 0 for red and the console gave me 18 Good Job
