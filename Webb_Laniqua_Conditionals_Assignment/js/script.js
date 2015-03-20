@@ -1,7 +1,7 @@
 //Laniqua Webb March 19 2015 - Conditionals Assignment
 
 
-//This Calculator will determine what level of prize a student can have based on how many reward points they received
+//This Calculator will determine what level of prize a student can have based on how many  points they received on the behavior color chart
 
 //declaring the variables that will be used
 var Purple = 5;//this is the most points awarded per day and means that the student had excellent behavior and went above and beyond
@@ -12,10 +12,25 @@ var red = 0;//the students behavior was unacceptable
 
 //asking the user for the data that will be calculated
 purple = prompt("How many purple days did the student have?");//asking the user for purple days
+if (purple === "" || isNaN(purple)){
+    purple = prompt("please enter a number!");
+}
 green = prompt("How many green days did the student have?");//green days are needed for calculating points
+if (green === "" || isNaN(green)){
+    green = prompt("please enter a number!");
+}
 orange = prompt("How many orange days did the student have?");//the amount of orange days are needed
+if (orange === "" || isNaN(orange)){
+    orange = prompt("please enter a number!");
+}
 yellow = prompt("How many yellow days did the student have?");//yellow days are worth 1 point
+if (yellow === "" || isNaN(yellow)){
+    yellow = prompt("please enter a number!");
+}
 red = prompt("How many red days did the student have?")//the student does not receive any points for red days
+if (red === "" || isNaN(red)){
+    red = prompt("please enter a number!");
+}
 
 totalpoints = purple * 5 + green * 4 + orange * 3 + parseInt(yellow);//the total for each color are added to get the total points
 console.log(totalpoints);
@@ -38,4 +53,4 @@ if (totalpoints > 1 && totalpoints < 10 && red == 0){
 //ternary
 (red >= 1) ? console.log("Good Job!") : console.log("Let's work on our behavior.");//if they have a red day then they need to work on their behavior
 
-//I entered 2 for purple 1 for green 1 for orange 1 for yellow and 0 for red and the console gave me 10 Good Job
+//I entered 2 for purple 1 for green 1 for orange 1 for yellow and 0 for red and the console gave me 18 Good Job
