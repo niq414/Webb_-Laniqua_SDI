@@ -78,7 +78,8 @@ console.log("Your numbers are " +florida+ ".")
     console.log("Your numbers are " +powerNumber+ " .The Power Ball is " +singlePower+ ".");
 }
 
-//Powerball numbers are
+/*Powerball numbers are 35, 10,9,53,29, with PB 5
+FL Lottery numbers are 37,50,11,  */
 
 
 
