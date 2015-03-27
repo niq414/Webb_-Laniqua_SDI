@@ -25,15 +25,58 @@ function lotteryType (selection){//function for lottery type
     return selection //tell user which selection was made
 }
 
-function randomNumGen(min, max){ //created number generator to find random numbers
+if(lotteryType === "Florida"){
+    console.log("You selected the Florida Lottery.");
+    if(lotteryType === "Power ball" || "Power Ball" || "Power")
+        console.log("You selected the Power Ball Lottery.");
+}
+
+
+function randomNumGen(min, max, num){ //created number generator to find random numbers
+
     var lotteryArray = []; //created array to hold numbers
 
-    for(var f = 0; f < 6; f++);{
-         florida = Math.random() * (max - min)+ min;//
-        lotteryArray[f] = Florida;
+    for (var f = 0; f < num; f++){
+         var floridaLottery = Math.round(Math.random() * (max - min)+ min);
+        lotteryArray[f] = floridaLottery;
     }
-    return lotteryArray;
+return lotteryArray
 }
 florida = randomNumGen(1, 53, 5);
+
+
+
+function powerNumGen(min, max, num) {
+
+    var powerArray = [];
+
+    for (var f = 0; f < num; f++){
+        var powerNum = Math.round(Math.random() * (max - min)+ min);
+powerArray[f] = powerNum;
+    }
+
+    return powerArray
+
+}
+
+powerNumber = randomNumGen(1, 59, 5);
+
+function randomNumGenerator(min, max) {
+
+    var power = Math.round(Math.random() * (max - min)+ min);
+
+return power
+}
+
+singlePower = randomNumGenerator(1,35, 1);
+
+if(lotteryType === "Florida"){
+console.log("Your numbers are " +florida+ ".")
+
+}else{
+    console.log("Your numbers are " +powerNumber+ " .The Power Ball is " +singlePower+ ".");
+}
+
+
 
 
