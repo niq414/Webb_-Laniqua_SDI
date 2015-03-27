@@ -25,15 +25,16 @@ function lotteryType (selection){
     return selection
 }
 
-function randomF1NumGen(min, max){
+function randomNumGen(min, max){
     var lotteryArray = [];
+    var f =0;
 
-    for(var f =0; f < 5; f++);{
-         randomF1NumGen = Math.random() * (max - min)+ min;
+    for(var f =0; f < 6; f++);{
+         randomNumGen = Math.random() * (max - min)+ min;
         lotteryArray[f] = Florida;
     }
     return lotteryArray;
 }
-var florida = randomF1NumGen(1, 53, 5);
+var florida = randomNumGen(1, 53, 5);
 
-console.log("The Florida lottery numbers are " +florida+ ".");
+console.log("The Florida lottery numbers are " +florida[0]+ +florida[1]+ +florida[2]+ +florida[3]+ florida[4]+ ".");
