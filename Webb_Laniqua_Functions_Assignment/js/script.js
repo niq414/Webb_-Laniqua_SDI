@@ -5,14 +5,13 @@
 
 var lotteryType;
 var Florida;
-var power;
+var singlePower;
 var powerNumber;
 
 var lotteryType = prompt("Hello! Would you like to play the Florida Lottery or the Power Ball Lottery? For Florida type Florida. For Power Ball type Power ball.");//prompt to determine which lottery the user would like to select
 
 function lotteryType (selection){//function for lottery type
     var blank = 5;
-    lotteryType = prompt("Please select a Lottery.");//prompt if user leaves blank
 
     while(selection === ""){
         selection = prompt("Please do not leave blank.");//prompt for no answer
@@ -76,6 +75,8 @@ console.log("Your numbers are " +florida+ ".")
 }else{
     console.log("Your numbers are " +powerNumber+ " .The Power Ball is " +singlePower+ ".");
 }
+
+//Powerball numbers are
 
 
 
