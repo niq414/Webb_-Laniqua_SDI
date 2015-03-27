@@ -8,16 +8,18 @@ var Florida;
 var singlePower;
 var powerNumber;
 
-var lotteryType = prompt("Hello! Would you like to play the Florida Lottery or the Power Ball Lottery? For Florida type Florida. For Power Ball type Power ball.");//prompt to determine which lottery the user would like to select
 
-function lotteryType (selection){//function for lottery type
-    var blank = 5;
+lotteryType = prompt("Hello! Are you playing the Florida Lottery or the Power Ball Lottery? For Florida type Florida. For Power Ball type Power ball.");//prompt to determine which lottery the user would like to select
+
+function lotteryOption(selection){//function for lottery type
+    var blank = 1;
 
     while(selection === ""){
         selection = prompt("Please do not leave blank.");//prompt for no answer
+        blank++;
 
-        if(blank = 5){
-            console.log("You did not made a selection.");//if blank then no selection was made
+        if(blank === 1){
+            console.log("You did not made a selection. Try Again Later.");//if blank then no selection was made
             break;//end the loop
         }
     }
